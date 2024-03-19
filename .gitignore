@@ -205,3 +205,6 @@ pyrightconfig.json
 # Ignore all local history of files
 .history
 .ionide
+
+# MacOS
+.DS_Store
