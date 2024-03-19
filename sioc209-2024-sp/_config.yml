@@ -15,6 +15,8 @@ logo                        : logo.png  # A path to the book logo
 execute:
   execute_notebooks: force
 
+only_build_toc_files: true
+
 # Define the name of the latex output file for PDF builds
 latex:
   latex_documents:
@@ -26,7 +28,7 @@ bibtex_bibfiles:
 
 # Information about where the book exists on the web
 repository:
-  url: https://github.com/duncanwp/Machine Learning for Geo and Environmental Science  # Online location of your book
+  url: https://github.com/duncanwp/sioc209-2024-sp  # Online location of your book
   path_to_book: docs  # Optional path to your book, relative to the repository root
   branch: main  # Which branch of the repository should be used when creating links (optional)
 

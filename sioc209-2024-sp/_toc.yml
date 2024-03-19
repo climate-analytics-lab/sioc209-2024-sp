@@ -52,7 +52,7 @@ chapters:
   - file: 04_detection/introduction.md
     title: Supervised Learning - Object Detection
     sections:
-      - file: 04_detection/cnns_for_classification.ipynb
+      - file: 04_detection/cnns_for_detection.ipynb
         title: Using CNNs for Object Detection
       - file: 04_detection/acoustic_detection.ipynb
         title: Acoustic Detection

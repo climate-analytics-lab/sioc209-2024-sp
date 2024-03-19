@@ -1,1 +1,1 @@
-# Heading: 06_embedding/introduction.md
+# Unsupervised Learning - Learning Latent Models
