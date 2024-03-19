@@ -1,4 +1,4 @@
-# Machine Learning for Geo and Environmental Science
+# Deep Learning for Geo and Environmental Science
 
 Course content and material for SIOC 209
 
