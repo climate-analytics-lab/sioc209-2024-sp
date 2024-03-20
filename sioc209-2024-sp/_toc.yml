@@ -4,13 +4,13 @@
 format: jb-book
 root: intro
 chapters:
+  - file: 00_setup/python_env_setup.md
+    title: Setting up your Python environment
   - file: 01_intro/introduction.md
     title: Introduction to ML
     sections: 
       - file: 01_intro/overview.ipynb
         title: Overview of the course
-      - file: 01_intro/python_env_setup.md
-        title: Setting up your Python environment
       - file: 01_intro/review_ML.ipynb
         title: Review of basic ML concepts
       - file: 01_intro/data_preprocessing.ipynb
