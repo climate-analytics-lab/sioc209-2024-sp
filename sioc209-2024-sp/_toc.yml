@@ -15,7 +15,7 @@ chapters:
         title: Review of basic ML concepts
       - file: 01_intro/data_preprocessing.ipynb
         title: Data pre-processing 
-      - file: 01_intro/features_engineering.ipynb
+      - file: 01_intro/feature_engineering.ipynb
         title: Feature Engineering
       - file: 01_intro/deep_learning.ipynb
         title: Introducing Deep Learning
