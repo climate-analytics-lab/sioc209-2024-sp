@@ -20,7 +20,7 @@ chapters:
       - file: 01_intro/deep_learning.ipynb
         title: Introducing Deep Learning
   - file: 02_regression/introduction.md
-    title: Supervised Learning - Regression with ClimateBench
+    title: Supervised Learning - Regression
     sections:
       - file: 02_regression/linear_regression.ipynb
         title: Linear Regression Recap
