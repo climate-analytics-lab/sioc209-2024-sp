@@ -2,7 +2,7 @@
 
 This hands-on graduate-level course introduces students to the application of machine learning techniques in the field of environmental sciences. It covers the main classes of supervised and unsupervised machine learning algorithms and provides practical experience in training and validating real-world models. Students will gain the skills necessary to analyze environmental data, make predictions, and uncover hidden patterns.
 
-It is currently taught at [Scripps Institution of Oceanography](https://scripps.ucsd.edu) as SIO(C) 209.
+Developed at the [Climate Analytics Lab (CAL)](http://climate-analytics-lab.github.io/), it is currently taught at [Scripps Institution of Oceanography](https://scripps.ucsd.edu) as SIO(C) 209.
 
 ## Prerequisites 
 Prior knowledge of machine learning fundamentals, including linear algebra, gradient descent and backpropagation. Basic programming skills (e.g., Python) are required.
