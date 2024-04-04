@@ -22,6 +22,18 @@ Please see the [Jupyter Book documentation](https://jupyterbook.org/publish/web.
 
 For GitHub and GitLab deployment specifically, the [cookiecutter-jupyter-book](https://github.com/executablebooks/cookiecutter-jupyter-book) includes templates for, and information about, optional continuous integration (CI) workflow files to help easily and automatically deploy books online with GitHub or GitLab. For example, if you chose `github` for the `include_ci` cookiecutter option, your book template was created with a GitHub actions workflow file that, once pushed to GitHub, automatically renders and pushes your book to the `gh-pages` branch of your repo and hosts it on GitHub Pages when a push or pull request is made to the main branch.
 
+### Building the slides
+
+The slides require a RISE which needs an older version of Jupyter Notebook. To build the slides, you should:
+
+1. Clone this repository
+2. Run `conda create -n <sio209_dev> -c conda-forge python=3.10 xarray netcdf4 cartopy jupyter-book rise jupyter_contrib_nbextensions notebook==6.5.6`
+3. Activate your dev environment
+3. Run `pip install tensorflow-metal scikit-learn gpflow` inside that environment
+3. (Optional) Edit the slides source files located in the `sioc209-2024-sp/slides/` directory
+4. Run `jupyter nbconvert --to slides sioc209-2024-sp/slides/*.ipynb --reveal-prefix=reveal.js --SlidesExporter.reveal_scroll=True`
+
+
 ## Contributors
 
 We welcome and recognize all contributions. You can see a list of current contributors in the [contributors tab](https://github.com/duncanwp/sioc209-2024-sp/graphs/contributors).
